@@ -1,16 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
-import Sidebar from './components/sidebar/sidebar';
-import Home from './components/home/home';
+import Sidebar from './components/sidebar/Sidebar';
+import Home from './components/home/Home';
 import About from './components/about/About';
 import Resume from './components/Resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
-import
+import Testimonials from './components/testimonials/Testimonials';
+import Contact from './components/contact/Contact';
 
-
-function App() {
+const App = () => {
   return (
-      <div>App</div>
+      <>
+        <Sidebar />
+        <main className='main'>
+          <Home />
+          <About />
+          <Resume />
+          <Portfolio />
+          <Testimonials />
+          <Contact />
+        </main>
+
+      </>
   );
 }
 
