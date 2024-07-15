@@ -1,0 +1,158 @@
+
+/* Profile Box */
+.home {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.intro {
+    max-width: 540px;
+    text-align: center;
+}
+
+.home_name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+
+.home_socials {
+    display: flex;
+    column-gap: 1.75rem;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.home_social_link {
+    color: var(--title-color);
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.home_social_link:hover {
+    color: hsl(43, 100%, 68%);
+}
+
+.scroll_down {
+    position: absolute;
+    bottom: 2.5rem  ;
+    left: 0;
+    width: 100%;
+    transition: .3s;
+}
+
+.home_scroll-name {
+    font-size: var(--small-font-size);
+}
+
+.mouse {
+    border: 2px solid #454360;
+    display: block;
+    height: 1.6rem;
+    width: 1.25rem;
+    margin: auto;
+    margin-top: .75rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+@keyframes ani-mouse {
+        0% {
+            top: 29%;
+        }
+
+        15%{
+            top: 50%;
+        }
+
+        50%{
+            top: 50%;
+        }
+
+        100%{
+            top: 29%;
+        }
+
+}
+
+.wheel {
+    background-color: var(--title-color);
+    border-radius: 100%;
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 50%;
+    transform: translatex(-50%);
+    animation: ani-mouse 2s linear infinite;
+}
+
+.shapes {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.shape{
+    position: absolute;
+}
+
+.s1 {
+    left: 2%;   
+    top: 10%;
+}
+.s2 {
+    left: 18%;   
+    top: 30%;
+}
+.s3 {
+    left: 99%;   
+    top: 90%;
+}
+.s4 {
+    left: 79%;   
+    top: 10%;
+}
+.s5 {
+    left: -10%;   
+    top: 70%;
+}
+.s6 {
+    left: 48%;   
+    top: 7%;
+}
+.s7 {
+    left: 120%;   
+    top: 70%;
+}
+.s8 {
+    left: 110%;   
+    top: 7%;
+}
+.s9 {
+    left: 58%;   
+    top: 89%;
+}
+.s10 {
+    left: 18%;   
+    top: 97%;
+}
+.s11 {
+    left: 88%;   
+    top: 50%;
+}
+
