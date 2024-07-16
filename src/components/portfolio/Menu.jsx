@@ -11,18 +11,21 @@ const Menu = [
       image: Work1,
       title: "TedxBMU",
       category: "WebDev",
+      link: "https://tedxbmu.com/"
     },
     {
       id: 2,
       image: Work2,
       title: "Three Ticket Please",
       category: "WebDev",
+      link: "https://ketanthakurr.github.io/Hosting-WebProject/"
     },
     {
       id: 3,
       image: Work3,
       title: "Technodune Official website",
       category: "WebDev",
+      link: ""
     },
     ,
     {
@@ -30,6 +33,7 @@ const Menu = [
       image: Work4,
       title: "Electrak",
       category: "WebDev",
+      link: ""
     },
     ,
     {
@@ -37,6 +41,7 @@ const Menu = [
       image: Work5,
       title: "Otaku",
       category: "MobileDev",
+      link: ""
     },
     ,
     {
@@ -44,6 +49,7 @@ const Menu = [
       image: Work6,
       title: "Driver Drowsiness Detection",
       category: "Hardware",
+      link: "https://github.com/ketanthakurr/Driver-Drowsiness-Detection-System"
     },
   ];
   

@@ -93,6 +93,7 @@
     line-height: 42px;
     transition: .3s;
     opacity: 0;
+    z-index: 10;
 }
 
 .work_card:hover .work_button {
