@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import Image from "../../assets/pfp2.jpg";
 import Aboutbox from "./Aboutbox";
+import Resume from "../../assets/KetanThakur_RESUME.pdf"
 
 const About = () => {
     return (
@@ -14,7 +15,7 @@ const About = () => {
                         <p className="about_description">
                             Hi, my name is ketan thakur. I am pursuing my bachelors in Computer Science Engineering. I am very passionate about photography and enthusiastic to learn new things and undertake new challenges.
                         </p>
-                        <a href="" className="btn">
+                        <a href={Resume} className="btn">
                             Download CV
                         </a>
                     </div>

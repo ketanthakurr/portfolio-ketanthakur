@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./sidebar.css";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.svg";
 
 const Sidebar = () => {
 
@@ -9,7 +9,7 @@ const Sidebar = () => {
         <>
         <aside className={toggle ? "aside show-menu" : "aside"}>
             <a href="#home" className="nav-logo">
-                <img src="{Logo}" className="Nav-Logo" alt="" />
+                <img src={Logo} alt="" />
             </a>
 
             <nav className="nav">

@@ -29,7 +29,7 @@
 }
 
 .work_mask {
-    background: #6c6ce5;
+    background: var(--first-color);
     position: absolute;
     left: 0;
     top: 0;
