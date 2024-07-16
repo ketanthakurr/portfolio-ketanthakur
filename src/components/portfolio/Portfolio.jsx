@@ -12,7 +12,7 @@ const Portfolio = () => {
         setItem(updatedItems);
     }
     return(
-        <div className="work container section" id="work">
+        <div className="work container section" id="project">
             <h2 className="section_title">
                 Projects
             </h2>
