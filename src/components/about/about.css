@@ -4,8 +4,14 @@
     font-size: var(--h1-font-size);
 }
 
+.about_img {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 100%;
+}
+
 .about_container {
-    grid-template-columns: 3fr 9fr;
+    grid-template-columns: 2fr 9fr;
     column-gap: 1.875rem;
 }
 

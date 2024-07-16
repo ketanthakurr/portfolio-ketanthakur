@@ -4,7 +4,7 @@
 /* Variable CSS */
 :root{
   /* colors */
-  --first-color: hsl(0, 5%, 20%);
+  --first-color: hsl(0, 77%, 62%);
   --title-color: hsl(244, 24%, 26%);
   --text-color: hsl(244, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);
@@ -143,6 +143,7 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   font-weight: var(--font-bold);
+  transition: transform 0.3s;
 }
 
 @keyframes button-push {
@@ -156,7 +157,7 @@ img {
 }
 
 .btn:hover {
-  animation: button-push 0.3s linear 1;
+  
 }
 
 

@@ -17,6 +17,13 @@ const Aboutbox = () => {
                     <spam className="about_subtitle">Internship</spam>
                 </div>
             </div>
+            <div className="about_box">
+                <i class="about_icon fa-regular fa-clock"></i>
+                <div>
+                    <h3 className="about_title">1</h3>
+                    <spam className="about_subtitle">Year experience</spam>
+                </div>
+            </div>
         </div>
     )
 }
